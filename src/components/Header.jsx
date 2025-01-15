@@ -8,6 +8,7 @@ function Header() {
     return (
         <div className="header">
             <header>
+                <h1>Header</h1>
                 <div className="logo">
                     <h5>logo</h5>
                 </div>
