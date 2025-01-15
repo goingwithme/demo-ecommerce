@@ -1,0 +1,89 @@
+/* General Header Styling */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.5rem 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Logo Styling */
+.logo img {
+    height: 30px;
+}
+
+/* Search Box Styling */
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-box input {
+    border: none;
+    padding: 0.5rem 1rem;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+}
+
+.search-box button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #444;
+}
+
+/* Navigation Links */
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Authentication Buttons */
+.auth-buttons button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-buttons .btn-outline-secondary {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+}
+
+.auth-buttons .btn-outline-secondary:hover {
+    background-color: #f5f5f5;
+}
+
+.auth-buttons .btn-dark {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.auth-buttons .btn-dark:hover {
+    background-color: #444;
+}
