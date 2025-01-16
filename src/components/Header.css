@@ -35,7 +35,9 @@ header {
     flex: 1;
     font-size: 1rem;
 }
-
+.cart-btn{
+    color: red;
+}
 .search-box button {
     background-color: #000;
     color: #fff;
@@ -62,7 +64,7 @@ header {
 
 /* Authentication Buttons */
 .auth-buttons button {
-    font-size: 1rem;
+    font-size: 10px;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
@@ -72,6 +74,7 @@ header {
     border: 1px solid #ccc;
     background-color: #fff;
     color: #000;
+    margin-right: 5px;
 }
 
 .auth-buttons .btn-outline-secondary:hover {
@@ -86,4 +89,12 @@ header {
 
 .auth-buttons .btn-dark:hover {
     background-color: #444;
+}
+
+.cart-icon{
+    color: #003852;
+    padding: 8px !important;
+    background: #b7f1fc86;
+    border: none !important;
+    margin-left: 5px !important ;
 }
